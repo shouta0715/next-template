@@ -22,7 +22,9 @@
     "prepare": "husky",
     "sb": "storybook dev -p 6006",
     "sb:build": "storybook build",
-    "sb:test": "test-storybook"
+    "sb:test": "test-storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
@@ -35,6 +37,20 @@
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.3.3",
+    "@playwright/test": "^1.43.1",
+    "@storybook/addon-a11y": "^8.0.9",
+    "@storybook/addon-actions": "^8.0.9",
+    "@storybook/addon-essentials": "^8.0.9",
+    "@storybook/addon-interactions": "^8.0.9",
+    "@storybook/addon-links": "^8.0.9",
+    "@storybook/addon-onboarding": "^8.0.9",
+    "@storybook/blocks": "^8.0.9",
+    "@storybook/nextjs": "^8.0.9",
+    "@storybook/react": "^8.0.9",
+    "@storybook/test": "^8.0.9",
+    "@storybook/test-runner": "^0.17.0",
+    "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.4",
     "@testing-library/user-event": "^14.5.2",
@@ -45,6 +61,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-v8": "^1.5.1",
     "@vitest/ui": "^1.5.1",
+    "axe-playwright": "^2.0.1",
     "dotenv": "^16.4.5",
     "dotenv-cli": "^7.4.1",
     "eslint": "^8.57.0",
@@ -64,6 +81,7 @@
     "lint-staged": "^15.2.2",
     "postcss": "^8",
     "prettier": "^3.2.5",
+    "storybook": "^8.0.9",
     "tailwindcss": "^3.4.1",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5",
