@@ -29,7 +29,8 @@
     ".next/types/**/*.ts",
     "next.config.mjs",
     "vitest.config.mts",
-    "src/tests/example.test.tsc"
+    "src/tests/example.test.tsc",
+    "postcss.config.js"
   ],
   "exclude": ["node_modules"]
 }
