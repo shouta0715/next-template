@@ -22,9 +22,7 @@
     "prepare": "husky",
     "sb": "storybook dev -p 6006",
     "sb:build": "storybook build",
-    "sb:test": "test-storybook",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "sb:test": "test-storybook"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
